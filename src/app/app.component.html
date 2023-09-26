@@ -1,0 +1,42 @@
+<header>
+    <mat-toolbar style="background-color: rgb(251,124,4);" class="example-toolbar">
+      <span><img src="../assets/pics/logo.png" height="50px" width="50px">&nbsp;&nbsp;&nbsp;</span>
+      <span>
+        <h1 class="example-app-name" style="color: white;" [routerLinkActive]="['active']" [routerLink]="['/home/dashboard']"><b>Al Mahmood Stores</b></h1>
+      </span>
+      <span class="example-spacer"></span>
+    </mat-toolbar>
+  </header>
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <section>
+    <br>
+    <router-outlet></router-outlet>
+    <br>
+  </section>
+  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <footer style="background-color: rgb(251,124,4); color: white;">
+    <div class="container-fluid">
+      <br><br>
+     <!-- <div class="row">
+        <div class="col-1"></div>
+        <div class="col">
+          <div class="row">
+            <div class="col-6 container-fluid">
+              <h6>Support</h6>
+              <hr style="border: 1px solid white;">
+            </div>
+            <div class="col-6 container-fluid">
+              <h6>About Us</h6>
+              <hr style="border: 1px solid white;">
+            </div>
+          </div>
+          <br>
+          <div class="col-12">
+          </div>
+          <hr style="border: 1px solid white;">
+          <br>
+        </div>
+        <div class="col-1"></div>
+      </div>-->
+    </div>
+  </footer>
